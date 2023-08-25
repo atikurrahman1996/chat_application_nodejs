@@ -3,7 +3,7 @@ const { check, validationResult } = require("express-validator");
 const createError = require("http-errors");
 const path = require("path");
 const { unlink } = require("fs");
-const User = require("../../models/People");
+const User = require("../../models/people");
 
 // add user
 const addUserValidators = [
